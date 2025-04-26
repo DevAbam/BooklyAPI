@@ -17,3 +17,7 @@ class CreateUserResponseModel(BaseModel):
     lastname:str
     created_at:datetime 
     updated_at:datetime  
+
+class LoginModel(BaseModel):
+    email:str
+    password:str
